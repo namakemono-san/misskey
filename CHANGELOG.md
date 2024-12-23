@@ -1,3 +1,15 @@
+## 2024.11.1-nmkmn-0.1.1
+
+### General
+-
+
+### Client
+- Feat: PlayとGamesを削除
+
+### Server
+-
+
+
 ## 2024.11.1
 
 ### General

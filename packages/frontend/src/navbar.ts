@@ -89,11 +89,6 @@ export const navbarItemDef = reactive({
 		icon: 'ti ti-news',
 		to: '/pages',
 	},
-	play: {
-		title: 'Play',
-		icon: 'ti ti-player-play',
-		to: '/play',
-	},
 	gallery: {
 		title: i18n.ts.gallery,
 		icon: 'ti ti-icons',
@@ -115,11 +110,6 @@ export const navbarItemDef = reactive({
 		icon: 'ti ti-medal',
 		show: computed(() => $i != null),
 		to: '/my/achievements',
-	},
-	games: {
-		title: 'Misskey Games',
-		icon: 'ti ti-device-gamepad',
-		to: '/games',
 	},
 	ui: {
 		title: i18n.ts.switchUi,
