@@ -296,20 +296,6 @@ const routes: RouteDef[] = [{
 	path: '/pages',
 	component: page(() => import('@/pages/pages.vue')),
 }, {
-	path: '/play/:id/edit',
-	component: page(() => import('@/pages/flash/flash-edit.vue')),
-	loginRequired: true,
-}, {
-	path: '/play/new',
-	component: page(() => import('@/pages/flash/flash-edit.vue')),
-	loginRequired: true,
-}, {
-	path: '/play/:id',
-	component: page(() => import('@/pages/flash/flash.vue')),
-}, {
-	path: '/play',
-	component: page(() => import('@/pages/flash/flash-index.vue')),
-}, {
 	path: '/gallery/:postId/edit',
 	component: page(() => import('@/pages/gallery/edit.vue')),
 	loginRequired: true,
@@ -554,22 +540,6 @@ const routes: RouteDef[] = [{
 	path: '/clicker',
 	component: page(() => import('@/pages/clicker.vue')),
 	loginRequired: true,
-}, {
-	path: '/games',
-	component: page(() => import('@/pages/games.vue')),
-	loginRequired: false,
-}, {
-	path: '/bubble-game',
-	component: page(() => import('@/pages/drop-and-fusion.vue')),
-	loginRequired: true,
-}, {
-	path: '/reversi',
-	component: page(() => import('@/pages/reversi/index.vue')),
-	loginRequired: false,
-}, {
-	path: '/reversi/g/:gameId',
-	component: page(() => import('@/pages/reversi/game.vue')),
-	loginRequired: false,
 }, {
 	path: '/timeline',
 	component: page(() => import('@/pages/timeline.vue')),
